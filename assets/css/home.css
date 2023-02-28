@@ -1,0 +1,103 @@
+body{
+   background-color: #EAFDFC;
+ font-family: 'Nunito', sans-serif;
+ /* background-image: url(../images/bg2.jpg); */
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+.Delete_button i{
+    color: #00132C;
+}
+li{
+   list-style-type: none;  
+}
+/* .create-contact img{
+   height: 35px;
+   display: inline-block; 
+}
+.create-contact p{
+    display: inline-block;
+    align-items: center;
+} */
+.flex-cont{
+   display: flex;
+   gap: 10px;
+   align-items: center;
+   height: 50px;
+  width: 270px;
+  justify-content:space-between;
+  background-color: #91D8E4;
+  padding: 3px;
+  margin: 10px;
+
+}
+.flex-cont:hover{
+    background-color: #479bee;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 24px;
+    color: aliceblue;
+}
+.icon span{
+    position: relative;
+    top: 4px;
+}
+.bg{
+    background-color: rgb(105, 10, 10);
+    border-radius: 30%;
+}
+.details{
+    visibility: hidden;
+    justify-self: flex-end;
+}
+form{
+    display: none;
+}
+h1{
+  font-size:2.6rem;
+    display: inline-flex;
+    margin:0;
+    padding: 0;
+    margin-left: 20px;
+    color: #00132C;
+}
+form input{
+    height: 30px;
+    font-size:1.05rem;
+    display: block;
+    margin-bottom:10px;
+    background-color: #BFEAF5;
+    border:0;
+}
+.add{
+    font-size: 2.5rem;
+    display: inline-flex;
+}
+
+
+/* CSS */
+.button {
+  background-color: transparent;
+  border: 1px solid #266DB6;
+  box-sizing: border-box;
+  color: #00132C;
+  font-family: "Avenir Next LT W01 Bold",sans-serif;
+  font-weight: bold;
+
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100px;
+  height: 40px;
+}
+
+.lock{
+    visibility: visible;
+     justify-self: flex-end;
+}
